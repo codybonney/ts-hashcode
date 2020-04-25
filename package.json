@@ -1,7 +1,7 @@
 {
   "name": "ts-hashcode",
   "description": "A module for generating a hashcode, written in TypeScript.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/codybonney/ts-hashcode",
   "author": "Cody Bonney (https://github.com/codybonney)",
   "contributors": [],
