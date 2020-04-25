@@ -16,7 +16,12 @@ describe('SinglyLinkedList', () => {
 
     it(`should handle string values`, () => {
         expect(HashCode('abc')).toEqual(-891889549);
-    })
+    });
+
+    it(`should handle array values`, () => {
+        expect(HashCode(['foo', 'bar'])).toEqual(-2284131960);
+    });
+
     it(`should handle boolean values`, () => {
         expect(HashCode(true)).toEqual(68280758);
         expect(HashCode(false)).toEqual(161908043);

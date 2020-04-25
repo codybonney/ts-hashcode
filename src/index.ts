@@ -43,7 +43,7 @@ const HashCode = (value: any): number => {
     if (type === 'string' || type === 'number' || type === 'boolean') {
         return HashCodeFromString(value.toString())
              + HashCodeFromString(type);
-    } else if (type === 'object') {
+    } else if (type === 'object' || type === 'array') {
         return HashCodeFromObject(value as object)
              + HashCodeFromString(type);
     } else {
