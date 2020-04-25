@@ -8,6 +8,15 @@
 A module for generating a hashcode, written in TypeScript. Based on [m3talstorm/Hashcode](https://github.com/m3talstorm/hashcode)
 
 ### Installation:
-```
+```bash
 npm install ts-hashcode
+```
+
+### Usage:
+```javascript
+import HashCode from 'ts-hashcode'
+
+HashCode('abc') // -891889549
+
+HashCode({foo: 'bar'}) // -1271284534
 ```
