@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5"   /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
+    "module": "umd" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+    "lib": [] /* Specify library files to be included in the compilation. */,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "declarationDir": "./dist" /* Output directory for generated declaration files. */,
+    "sourceMap": false /* Generates corresponding '.map' file. */,
+    "outDir": "./dist" /* Redirect output structure to the directory. */,
+    "rootDir": "./src", /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "removeComments": false /* Do not emit comments to output. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": false, /* Raise error on expressions and declarations with an implied 'any' type. */
+    "noUnusedLocals": true /* Report errors on unused locals. */,
+    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
+    "baseUrl": "./" /* The base directory to resolve non-absolute module names. */,
+  },
+  "include": ["./src/**/*"]
+}
